@@ -1,53 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        h1 {
-            color: purple;
-        }
-
-        h2 {
-            color: lightskyblue;
-        }
-
-        .box {
-            border: 2px solid#333232;
-            padding: 15px;
-            border-radius: 8px;
-            width: 900px;
-        }
-    </style>
+    <title>Магазин товарів</title>
 </head>
 
 <body>
-    <header>
-        <h1>Lorem, ipsum.</h1>
-    </header>
-    <hr>
-    <main>
-        <section>
-            <div class="box">
-                <h2>Lorem.</h2>
-                <img src="./images/Screenshot 2026-07-30 185812.png">
+    <h1>Наші товари</h1>
+    <div class="products">
+        <div class="product-card">
+            <div class="product-img"> <img src="https://picsum.photos/600/300?random=1" alt="Ноутбук">
+                <div class="product-actions"> <button class="action-btn">🛒 В кошик</button> </div>
             </div>
-        </section>
-        <section>
-            <div class="box">
-                <h2>Lorem.</h2>
-                <img src="./images/Screenshot 2026-07-30 185817.png">
+            <div class="product-info">
+                <h3 class="product-name">Ноутбук</h3>
+                <p class="product-price">25 000 грн</p>
             </div>
-        </section>
-        <section>
-            <div class="box">
-                <h2>Lorem</h2>
-                <img src="./images/Screenshot 2026-07-30 185824.png">
+        </div>
+        <div class="product-card">
+            <div class="product-img"> <img src="https://picsum.photos/400/300?random=2" alt="Навушники">
+                <div class="product-actions"> <button class="action-btn">🛒 В кошик</button> </div>
             </div>
-        </section>
-    </main>
+            <div class="product-info">
+                <h3 class="product-name">Навушники</h3>
+                <p class="product-price">1 200 грн</p>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-img"> <img src="https://picsum.photos/400/300?random=3" alt="Смартгодинник">
+                <div class="product-actions"> <button class="action-btn">🛒 В кошик</button> </div>
+            </div>
+            <div class="product-info">
+                <h3 class="product-name">Смартгодинник</h3>
+                <p class="product-price">2 500 грн</p>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-img"> <img src="https://picsum.photos/400/300?random=4" alt="Фотоапарат">
+                <div class="product-actions"> <button class="action-btn">🛒 В кошик</button> </div>
+            </div>
+            <div class="product-info">
+                <h3 class="product-name">Фотоапарат</h3>
+                <p class="product-price">12 000 грн</p>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
